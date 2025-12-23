@@ -1,0 +1,221 @@
+/* Full page background */
+body, html {
+  background-color: #31006f;
+  color:#31006f;
+}
+
+/* Logo ribbon on top */
+.logo-ribbon{
+  background-color: #31006f;
+  padding: 10px 0;
+}
+
+
+/* Dashboard container centered with white background */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 40px auto; /* centers vertically with some top/bottom spacing */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.claims-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #c2bfe0;
+}
+
+.claims-table th, .claims-table td {
+  border: 1px solid #31006f;
+  padding: 8px;
+  text-align: left;
+}
+
+.claims-table th {
+  background-color: #9579d3;
+}
+
+.add-claim-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.add-claim-form input {
+  padding: 5px;
+}
+
+.add-claim-form button {
+  padding: 6px 12px;
+  background-color: #ec008c;
+  color: #310031;
+  border-radius: 25px;
+}
+
+.add-claim-form button:hover {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #31006f;
+  color: #ec008c;
+  border-radius: 25px;
+}
+
+.edit-btn {
+  background-color: #ece819;
+  color: white;
+  padding: 4px 20px;
+  border: black;           
+  border-radius: 25px;    
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.edit-btn:hover {
+  background-color: #ffd700;
+}
+
+.delete-btn {
+  background-color: #f98e2b;
+  color: white;
+  padding: 4px 15px;
+  border: red;          
+  border-radius: 25px;    
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #da190b;
+}
+
+.user-title {
+  color: #7c77ad;
+}
+
+.delete-selected-btn {
+  background: linear-gradient(135deg, #ff3c3c, #ff6b6b); /* red gradient */
+  color: white;
+  padding: 4px 15px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 0.6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 60, 60, 0.3);
+}
+
+.delete-selected-btn:hover {
+  background: linear-gradient(135deg, #ff1f1f, #ff8585);
+  box-shadow: 0 6px 16px rgba(255, 60, 60, 0.5);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.delete-selected-btn:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 3px 8px rgba(255, 60, 60, 0.3);
+}
+
+.delete-selected-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 60, 60, 0.4);
+}
+
+
+td {
+  white-space: nowrap; /* prevent wrapping */
+}
+
+td button {
+  display: inline-block;
+  margin-right: 6px;
+  width: auto; /* remove 100% width if applied */
+}
+
+.high-price {
+  background-color: rgba(249, 100, 100, 0.991); /* Light red */
+}
+
+.warning-text {
+  color: rgb(222, 215, 215);
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.export-btn {
+  background: linear-gradient(135deg, #0061ff, #60efff); /* Sleek blue-cyan gradient */
+  color: white;
+  padding: 4px 15px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 0.6px;
+  transition: all 0.3s ease;
+  float: right; /* Move to right corner */
+  box-shadow: 0 4px 10px rgba(0, 97, 255, 0.3);
+}
+
+.export-btn:hover {
+  background: linear-gradient(135deg, #0078ff, #74f1ff);
+  box-shadow: 0 6px 16px rgba(0, 97, 255, 0.5);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.export-btn:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 97, 255, 0.3);
+}
+
+.export-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 97, 255, 0.4);
+}
+
+.bulk-actions {
+  display: flex;
+  justify-content: flex-end; /* push buttons to the right */
+  gap: 10px; /* space between export and delete buttons */
+  margin-bottom: 15px;
+}
+
+.delete-selected-btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.delete-selected-btn:hover {
+  background-color: #c82333;
+}
+
+.export-container {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.export-btn {
+  background-color: #1d3557;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  background-color: #457b9d;
+}

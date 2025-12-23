@@ -1,0 +1,4 @@
+{
+  "claimsApiUrl": "http://localhost:8080/api/claims",
+  "userApiUrl": "http://localhost:8080"
+}
