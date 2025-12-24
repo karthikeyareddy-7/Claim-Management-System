@@ -42,7 +42,6 @@ The project consists of the following main steps:
 ### 3. Data Preprocessing and Validation
 
 * All inputs are validated at the backend using Spring validation.
-* Claim status is controlled (Pending, Approved, Rejected) to prevent invalid updates.
 * Admin operations are restricted based on roles.
 
 ---
